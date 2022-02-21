@@ -1,0 +1,1 @@
+string  answer = get_string("whats your Name");
