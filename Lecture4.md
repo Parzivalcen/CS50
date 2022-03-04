@@ -83,4 +83,13 @@ repeat n-1 times
 - Here too the algo need to run n-1 times so the big O notation is *O*(n^2) and Ω(n) if we add the optimization of no swaps
 
 ## Recursion 
-Recursion is when a function calls itself  
+Recursion is when a function calls itself, pseudo code;
+```
+if theres no numbers
+  quit
+else
+Sort the right half
+sort the left half
+  merge sorted halves
+
+```
